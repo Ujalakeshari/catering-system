@@ -1,0 +1,165 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #4CAF50; /* Dark Green */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffeb3b; /* Yellow */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  #intro {
+    background-color: #8BC34A; /* Light Green */
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  #featured-products h2 {
+    color: #4CAF50; /* Dark Green */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2b6938;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Dark Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #388E3C; /* Darker Green */
+  }
+  
+  /* Product list styles */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .product-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-item h3 {
+    margin: 0 0 0.5rem;
+    color: #4CAF50; /* Dark Green */
+  }
+  
+  .product-item p {
+    margin: 0 0 1rem;
+  }
+  
+  .product-item button {
+    background-color: #FF9800; /* Orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .product-item button:hover {
+    background-color: #F57C00; /* Darker Orange */
+  }
+  
+  /* Admin and user dashboard styles */
+  #manage-products, #view-products {
+    background-color: #FFF9C4; /* Light Yellow */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  #add-product {
+    background-color: #FF9800; /* Orange */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #add-product:hover {
+    background-color: #F57C00; /* Darker Orange */
+  }
+  
+  /* Profile styles */
+  .profile-section {
+    background-color: #E1BEE7; /* Light Purple */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  

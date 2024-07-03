@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>User Dashboard</h1>
+    <nav>
+      <a href="profile.html">My Profile</a>
+      <a href="cart.html">My Cart</a>
+      <a href="order.html">My Orders</a>
+      <a href="login.html" id="logout">Logout</a>
+    </nav>
+  </header>
+  <main>
+    <section id="view-products">
+      <h2>View Products</h2>
+      <div class="product-list" id="user-product-list">
+        <!-- Products will be dynamically added here -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Catering Reservation and Ordering System</p>
+  </footer>
+  <script src="js/firebase.js"></script>
+  <script src="js/user.js"></script>
+</body>
+</html>
